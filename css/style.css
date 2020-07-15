@@ -1,0 +1,276 @@
+body {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 150px;
+	background-color: #FFFFFF;
+	display: flex;
+	position: relative;
+}
+
+.header ul {
+	position: absolute;
+	left: 38%;
+	right: 5%;
+	top: 43.33%;
+	bottom: 44%;
+}
+
+.header ul li {
+	list-style: none;
+}
+
+.header ul li a {
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #505353;
+	text-decoration: none;
+	margin-right: 35px;
+}
+
+.header ul li a:hover {
+	color: white;
+	background: #B2D235;
+	border-radius: 17px;
+	padding: 10px 15px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.imgLogo {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 4%;
+}
+
+.banner {
+	height: 655px;
+	background-image: url("../image/Rectangle 1.png");
+}
+
+.txtTitle {
+	font-size: 50px;
+	letter-spacing: -0.05em;
+	color: #11114E;
+}
+
+.txtBanner{
+	font-family: UTM BryantLG;
+	font-weight: bold;
+	font-size: 50px;
+	color: #11114E;
+	margin-top: 1px;
+}
+
+.txtDesc {
+	font-family: UTM BryantLG;
+	font-size: 20px;
+	letter-spacing: -0.05em;
+	color: #505353;
+	width: 249px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.btnStart {
+	background: #B2D235;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 35px;
+	width: 377px;
+	height: 70px;
+	margin-top: 26px;
+	display: flex;
+}
+
+.btnStart a {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	color: #FFFFFF;
+	letter-spacing: -0.05em;
+	text-decoration: none;
+}
+
+.blockTitle {
+	padding-left: 4%;
+	padding-top: 14%;
+}
+
+.blockMess {
+	width: 360px;
+	height: 190px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 23px;
+	margin-left: 72%;
+	margin-top: -2%;
+	position: relative;
+}
+
+.web-name {
+	font-weight: 600;
+	font-size: 12px;
+	color: #7F7F7F;
+	letter-spacing: -0.02em;
+	position: absolute;
+	margin-left: 16%;
+	margin-top: 5%;
+}
+
+.logo-hapo {
+	position: absolute;
+	margin-left: 3%;
+	margin-top: 17%;
+}
+
+.blockAlert {
+	width: 256px;
+	height: 53px;
+	margin-top: 4px;
+	background: #F1F0F0;
+	border-radius: 15px;
+	display: flex;
+	position: absolute;
+	margin-left: 12%;
+	margin-top: 12%; 
+}
+
+.textAlert {
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: -0.02em;
+	color: #505353;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 8%;
+}
+
+.loginMess {
+	width: 276px;
+	height: 37px;
+	background: #3184F7;
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 31%;
+	display: flex;
+}
+
+.imgMesseage {
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.txtLoginMess {
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: 3%;
+}
+
+.txtChat {
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #B3B3B3;
+	position: absolute;
+	margin-top: 44%;
+	margin-left: 22%;
+}
+
+.home-courses {
+	display: flex;
+	flex-direction: row;
+}
+
+.content-courses {
+	width: 370px;
+	height: 470px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	position: relative;
+	margin-left: 30px;
+}
+
+.content-courses .head {
+	height: 215px;
+	background-color: #3F6185;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px 15px 0px 0px;
+	display: flex;
+}
+
+.img-courses {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-courses .foot .txtContent {
+	font-family: UTM BryantLG;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: -0.05em;
+	color: #B2D235;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.content-courses .foot .txtDes {
+	font-family: UTM BryantLG;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: -0.05em;
+	color: #505353;
+	margin-top: 10px;
+	line-height: 20px;
+	padding: 0 39px;
+}
+
+.content-courses .foot .btnTake {
+	background: #B2D235;
+	box-shadow: inset 0px 1.5px 2px #6F8710;
+	border-radius: 22px;
+	width: 200px;
+	height: 42px;
+	display: flex;
+	position: absolute;
+	margin-top: 8%;
+	margin-left: 22%;
+}
+
+.content-courses .foot .btnTake a {
+	font-family: UTM BryantLG;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: -0.05em;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
